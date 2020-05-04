@@ -139,7 +139,7 @@ function startGame(r,c,n){
 				timer();		
 			}
 				
-			if(nextValue==(2*n)-1){
+			if(nextValue==(2*n)+1){
 				timerStop();
 				lboard((s*100 + ms));
 				display();
